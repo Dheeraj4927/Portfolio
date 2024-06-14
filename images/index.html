@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHeeraj Portfolio </title>
+     <link rel="stylesheet" href="style.css">
+     <script src="https://kit.fontawesome.com/6870fecdf5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            
+            <h1>Hey!, I'm <span>Dheeraj.</span><br>Software Developer</h1>
+        </div>
+    </div>
+</div>
+<!-- ------about------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About</h1>
+                <p>As a software developer, eager to leverage my technical skills in a dynamic environment and I'm confident in my ability to contribute my skills effectively to the projects.I am dedicated to continuous learning and growth.With my effective Interpersonal skills I can work as a collaborative team player.I have a commitment to work and upholding ethical standards.I approach each challenge with enthusiasm and a growth mindset. From concept to deployment, I'm committed to excellence and turning ideas into exceptional solutions.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('skills')">skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>B.tech. in Inforation and Communication Tecnology</span><br>Sastra Deemed University,Thanjavur<br>2021-2025</li>
+                        <li><span>Higher Secondary</span><br>Narayana IIT Academy,Hyderabad<br>2019-2021</li>
+                        <li><span>Secondary</span><br>Viswabharathi High School,Gudivada<br>2018-2019</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li><span>c++</span></li>
+                        <li><span>Data Structures</span></li>
+                        <li><span>SQL</span></li>
+                        <li><span>Python</span></li>
+                        <li><span>Web Development</span></li>
+                        <li><span>Machine Learning</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Web Development Intern</span><br>At Internpe<br>June 2024-July 2024</li>
+                        <li><span>web Development Intern</span><br>At CodSoft<br>June 2024-July 2024</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------services------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">Development skills</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Designing of web Interfaces</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Machine Learning</h2>
+                <p>Creating machine learning models</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Development</h2>
+                <p>Designing of apps</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!--- ----------portfolio------------ -->
+ <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list"> 
+            <div class="work">
+                <img src="images/project1.jpg">
+                <div class="layer">
+                    <h3>calculator App</h3>
+                    <p>Created a calculator using HTML and CSS to perform simple calculations
+                        which is user-friendly.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/project2.jpg">
+                <div class="layer">
+                    <h3>Diabetes Prediction</h3>
+                    <p>Developed machine learning models to predict diabetes accurately by
+                        making the models learn from the given dataset.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+ </div>
+<!-------------contact----------  --->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>gudipatidheeraj456@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>8096424882</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100010978627111"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/Dheeraj___33"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/dheeraj_21._/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/dheeraj-gudipati4927/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/myresume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                   <input type="text" name="Name" placeholder="Your Name" required> 
+                   <input type="email" name="Email" placeholder="Your Email" required>
+                   <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                   <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© copyright Dheeraj 2024. All rights reserved <i class="fa-sharp fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+
+<script>
+      
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu =  document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzin0ZsEZ_DPtgkwP-TJQhCZjxYMpoPL2jtN_qOsTN9WjO1QOMhAmAWDtB4Oi9oNXRcvQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
